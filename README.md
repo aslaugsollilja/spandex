@@ -1,3 +1,3 @@
 # spandex
 
-A text expander extension for Chromium 
+A text expander extension for Chromium, a  school project. 
