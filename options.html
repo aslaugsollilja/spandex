@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>spandex options</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <style>
+
+            body {
+                background: url(pandas.gif) repeat;
+            }
+
+            #display_keywords {
+                table-layout: fixed;
+                background: white;
+            }
+
+            #display_keywords td, #display_keywords th {
+                text-align: center;
+                vertical-align: middle;
+                display: table-cell;
+            }
+
+            #display_keywords td {
+                word-wrap: break-word;
+            }
+
+            #display_keywords .dk_keyword {
+                width: 20%;
+            }
+
+            #display_keywords .dk_expansion {
+                width: 60%;
+            }
+
+            #display_keywords .dk_active {
+            }
+
+            #display_keywords .dk_remove {
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="hero-unit">
+                <h1>spandex</h1>
+                <p>The most awesomest text expander out there.</p>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <form class="form-inline">
+                        <fieldset>
+                            <div class="well">
+                                <input type="text" placeholder="keyword" class="input-small" id="new_keyword" />
+                                <input type="text" placeholder="expansion" class="input-xlarge" id="new_expansion" />
+                                <button id="new_add">add</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div class="span12">
+                    <table id="display_keywords" class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th class="dk_keyword">keyword</th>
+                                <th class="dk_expansion">expansion</th>
+                                <th class="dk_active">active</th>
+                                <th class="dk_remove">remove</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="jquery.js"></script>
+    <script src="options.js"></script>
+</html>
