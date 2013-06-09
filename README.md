@@ -2,6 +2,14 @@
 
 A text expander extension for Chromium, a  school project.
 
+## Extension overview
+
+### Configurable expansion
+<div style="text-align:center"><img src="http://i.imgur.com/jyLEJil.png" alt="configurable expansions" /></div>
+
+### In action
+<div style="text-align:center"><img src="http://i.imgur.com/D5qYsRA.gif" alt="configurable expansions" /></div>
+
 ## Objective
 People write text all day, everyday. Some long sentences they type in over and over again, sentences like "laughing out loud", and that's what we want to fix for the user. Our extension, _spandex_, can expand little keywords (like "lol") into full sentences (like "laughing out loud"). The user types in a keyword, and then triggers a keyboard shortcut (Ctrl+Enter by default), and then spandex will expand that keyword into its full sentence equivalent. These keywords can be configured by the user.
 
