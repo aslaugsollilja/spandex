@@ -4,7 +4,7 @@ A text expander extension for Chromium, a  school project.
 
 ## Extension overview
 
-### Configurable expansion
+### Configurable expansions
 <div style="text-align:center"><img src="http://i.imgur.com/jyLEJil.png" alt="configurable expansions" /></div>
 
 ### In action
