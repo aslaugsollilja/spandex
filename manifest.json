@@ -6,12 +6,13 @@
     "version": "1.0",
 
     "permissions": [
-        "<all_urls>"
+        "<all_urls>", "storage"
     ],
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
             "js": ["jquery.js", "spandex.js"]
         }
-    ]
+    ],
+    "options_page": "options.html"
 }
