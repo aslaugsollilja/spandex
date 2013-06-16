@@ -16,7 +16,7 @@ You can get the extension <a href="https://raw.github.com/aslaugsollilja/spandex
 ## Objective
 People write text all day, everyday. Some long sentences they type in over and over again, sentences like "laughing out loud", and that's what we want to fix for the user. Our extension, _spandex_, can expand little keywords (like "lol") into full sentences (like "laughing out loud"). The user types in a keyword, and then triggers a keyboard shortcut (Ctrl+Enter by default), and then spandex will expand that keyword into its full sentence equivalent. These keywords can be configured by the user.
 
-Let's take an example. Jonathan Van Wunderbar is an avid Facebook user. Let's assume that he writes the sentence "laughing out loud" three-hundred times a day. That is a total of 5100 characters Jonathan has to type, for that sentence alone, each day! Using spandex, he can configure the keyword "lol" to be expanded to "laughing out load". Then he'll type the keyword "lol" three-hundred times a day, which is a total of 900 keys typed. That is only 18% of what Jonathon would otherwise have to type!
+Let's take an example. Jonathan Van Wunderbar is an avid Facebook user. Let's assume that he writes the sentence "laughing out loud" three-hundred times a day. That is a total of 5100 characters Jonathan has to type, for that sentence alone, each day! Using spandex, he can configure the keyword "lol" to be expanded to "laughing out loud". Then he'll type the keyword "lol" three-hundred times a day, which is a total of 900 keys typed. That is only 18% of what Jonathon would otherwise have to type!
 
 As you can see, this extension is a total lifesaver.
 
